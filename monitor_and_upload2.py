@@ -26,9 +26,9 @@ IN_FOLDER = args.IN_FOLDER
 OUT_FOLDER = args.OUT_FOLDER
 SAVE_TO_AWS = args.SAVE_TO_AWS
 
-sender = '1910884164@qq.com'  # 发件人的地址
-password = 'clbkcxqbwoqqbfji'  # 此处是我们刚刚在邮箱中获取的授权码
-receivers = '1910884164l@gmail.com'
+sender = '**********'  # 发件人的地址
+password = '************'  # 此处是我们刚刚在邮箱中获取的授权码
+receivers = '*******l@gmail.com,15******@163.com,1*21158179@qq.com'
 
 if os.path.exists(OUT_FOLDER):
     print("The output folder %s already exists.\n" % OUT_FOLDER)
